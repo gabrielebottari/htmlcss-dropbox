@@ -116,7 +116,7 @@ main img {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 h3 {
@@ -274,6 +274,11 @@ li::marker {
     padding-left: 10px;
     padding-bottom: 10px;
 }
+
+.card-info h3 {
+    margin-bottom: 20px;
+}
+
 /* 
     FOOTER
 */
