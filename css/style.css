@@ -182,10 +182,6 @@ label:first-of-type {
     margin-bottom: 30px;
 }
 
-.fa-li {
-    position: relative;
-    right: 5px;
-}
 .fa-ul.user {
     list-style-image: url(../img/user-solid.svg);
 }
@@ -196,16 +192,21 @@ label:first-of-type {
     list-style-image: url(../img/share-nodes-solid.svg) ;
 }
 
-.fa-ul.check {
-    list-style-image: url(../img/check-solid.svg);
+.fa-check {
+    color: #0061FF;
 }
 
 li::marker {
     font-size: 2em;
 }
 
+.fa-ul li {
+    margin-bottom: 20px;
+}
+
 li h4 {
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .button-container {
