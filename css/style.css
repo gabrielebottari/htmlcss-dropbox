@@ -26,6 +26,10 @@ html {
     text-decoration: none;
 }
 
+.last-section hr, .hr-col {
+    border: none;
+}
+
 /* 
     HEADER
 */
@@ -229,6 +233,7 @@ li h4 {
     width: 20%;
     height: 1px;
     margin-left: 30px;
+    background-color: #EFEFF0;
 }
 
 .plan {
