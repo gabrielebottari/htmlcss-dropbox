@@ -18,15 +18,12 @@ html {
     margin: 0 auto;
 }
 
-a {
-    text-decoration: none;
-}
-
 .button {
     padding: 5px 10px;
     border: 1px solid #0061FF;
     background-color: #0061FF;
     color: white;
+    text-decoration: none;
 }
 
 /* 
@@ -48,6 +45,7 @@ li a {
     padding-left: 20px;
     padding-right: 20px;
     color:black;
+    text-decoration: none;
 }
 
 .logo img {
@@ -104,6 +102,149 @@ main img {
 }
 
 /* 
+    MAIN
+*/
+
+.background-container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.background-container-small > * {
+    margin: 30px 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+label:first-of-type {
+    padding-right: 50px;
+}
+
+.my-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.my-col {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.my-col > * {
+    padding: 5px 10px;
+    align-content: stretch;
+}
+
+.typology {
+    text-align: center;
+    width: 100%;
+}
+
+.typology, .feature, .enterprise-info {
+    border: 1px solid #D3D3D6;
+}
+
+.feature {
+    height: 100%;
+    width: 100%;
+}
+
+.feature p:first-of-type {
+    color: #868174;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.fa-li {
+    position: relative;
+    right: 5px;
+}
+.fa-ul.user {
+    list-style-image: url(../img/user-solid.svg);
+}
+.fa-ul.folder {
+    list-style-image: url(../img/folder-solid.svg);
+}
+.fa-ul.nodes{
+    list-style-image: url(../img/share-nodes-solid.svg) ;
+}
+
+.fa-ul.check {
+    list-style-image: url(../img/check-solid.svg);
+}
+
+li::marker {
+    font-size: 2em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.purchase {
+    margin: 30px 0;
+}
+
+.purchase span {
+    margin-right: 5px;
+}
+
+.hr-col {
+    width: 20%;
+    height: 1px;
+}
+
+.plan {
+    list-style: none;
+    margin: 30px 0;
+}
+
+.my-col.large {
+    width: 100%;
+}
+
+.my-col.large main {
+    width: 70%;
+}
+
+.my-col.large aside {
+    width: 30%
+}
+
+.enterprise-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.enterprise-info * {
+    padding: 10px 10px;
+}
+
+main p {
+    margin-top: 50px;
+}
+
+.button-container-enterprise {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+/* 
     FOOTER
 */
 
@@ -119,8 +260,7 @@ main img {
 
 .footer-top-container > * {
     margin-top: 30px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;   
 }
 
 
