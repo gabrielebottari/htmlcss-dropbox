@@ -279,6 +279,89 @@ li::marker {
     margin-bottom: 20px;
 }
 
+.sponsor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsor > * {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.sponsor-left img, .sponsor-right img {
+    filter: invert(100%)       
+}
+
+.sponsor img {
+    width: 50%;
+}
+
+.sponsor-left-1 {
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+.sponsor-left-2 {
+    background-color: #61082B;
+}
+
+.sponsor-left-3 {
+    background-color: #0093CE;
+}
+
+.sponsor-left-4 {
+    background-color: #FF1C1C;
+}
+
+.sponsor-right-1 {
+    background-color: #D5001F;
+}
+
+.sponsor-right-2 {
+    background-color: #B4D0E7;
+}
+
+.sponsor-right-3 {
+    background-color: #0D2481;
+}
+
+.sponsor-right-4 {
+    background-color: #FFD830;
+}
+
+.sponsor-left, .sponsor-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsor-left > *, .sponsor-right > * {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-center {
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+
+.sponsor-center > * {
+    margin-bottom: 30px;
+}
+
+.sponsor-center-title {
+    width: 50%;
+}
+
+.hr-sponsor {
+    height: 1px;
+    color: #EFEFEF;
+}
+
 .background-main-container {
     background-color: #B4D0E7;
 }
