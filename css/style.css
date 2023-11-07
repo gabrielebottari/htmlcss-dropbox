@@ -1,7 +1,6 @@
 /* 
     RESET
 */
-
 * {
     margin: 0;
     padding: 0;
@@ -11,12 +10,95 @@
 /* 
     GENERAL
 */
-
 html {
     font-family: 'Open Sans', sans-serif;
 }
 
-.container {
+.body {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    padding: 5px 10px;
+    border: 1px solid #0061FF;
+    background-color: #0061FF;
+    color: white;
+}
+
+/* 
+    HEADER
+*/
+
+.header-top-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.header-nav-left li, .header-nav-right li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li a {
+    padding-left: 20px;
+    padding-right: 20px;
+    color:black;
+}
+
+.logo img {
+    height: 20px;
+}
+
+.header-background-bottom {
+    background-color: #B4D0E7;
+}
+
+.header-bottom-container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    padding-top: 30px;
+}
+
+.jumbotron {
+    display: flex;
+}
+
+header aside {
+    width: 40%;
+    padding-top: 30px;
+}
+
+header aside  * {
+    margin-top: 30px;
+}
+
+header main {
+    width: 60%;
+}
+
+main img {
+    width: 100%;
+}
+
+.fa-arrow-down {
+    margin-top: 60px;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.jumbo-img {
+    position: relative;
+}
+
+.jumbo-img {
+    top: 60px;
 }
