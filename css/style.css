@@ -66,14 +66,21 @@ html {
     position: absolute;
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
     padding: 30px;
     line-height: 30px;
     z-index: 1;
 }
 
+li a:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 20px;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 
 li a {
     padding-left: 20px;
@@ -162,7 +169,7 @@ h3 {
     font-size: 1.5em;
 }
 
-label:first-of-type {
+.input-radio label:first-of-type {
     padding-right: 50px;
 }
 
@@ -451,10 +458,14 @@ li h4 {
 
 .faq {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    font-weight: bold;
     border-top: 1px solid #868174;
     padding: 40px 0;
+}
+
+label p {
+    font-weight: bold;
 }
 
 .faq:last-of-type {
@@ -462,11 +473,47 @@ li h4 {
     padding-top: 40px;
 }
 
-.fa-angle-down {
+.fa-angle-down,.fa-angle-up {
     font-size: 0.8em;
     font-weight: bold;
     margin-right: 20px;
 }
+
+.accordion{
+    overflow: hidden;
+}
+
+.faq i {
+    color: black;
+}
+
+.accordion-label{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion-content{
+    margin-top: 20px;
+    line-height: 20px;
+    display: none;
+}
+
+.accordion-input{
+    display: none;
+}
+
+.accordion-input:checked ~ .accordion-content{
+    display: block;
+}
+
+.accordion-input:checked a i {
+    transform: rotate(180deg);
+}
+
 
 /* 
     FOOTER
