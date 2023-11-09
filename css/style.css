@@ -30,7 +30,7 @@ html {
     border: none;
 }
 
-.footer-top-container > *, .last-section > * {
+.footer-top-container > * {
     margin-top: 30px;
     margin-bottom: 30px;   
 }
@@ -131,6 +131,10 @@ main img {
 
 h2 {
     font-size: 2.5em;
+}
+
+h2:last-of-type {
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -430,16 +434,19 @@ li h4 {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+    border-top: 1px solid #868174;
+    padding: 40px 0;
+}
+
+.faq:last-of-type {
+    border-bottom: 1px solid #868174;
+    padding-top: 40px;
 }
 
 .fa-angle-down {
     font-size: 0.8em;
     font-weight: bold;
     margin-right: 20px;
-}
-
-.last-section hr {
-    height: 1px;
 }
 
 /* 
