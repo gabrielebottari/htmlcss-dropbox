@@ -605,11 +605,12 @@ a:link {
 
 #faq li h4 {
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 0.95em;
 }
 
 #faq i {
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 
